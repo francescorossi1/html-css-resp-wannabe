@@ -5,5 +5,24 @@
     }
 
 @media screen and (max-width: 480px) {
-    
+    .lessons .col, .steps .col, .why-us .col{
+        width: 100%;
+    }
+
+    .row{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card, .steps, .why-us{
+        margin-bottom: 0;
+        padding: 20px 0;
+    }
+
+
+
+    .why-us{
+        background-color: #222222;
+        
+    }
 }
